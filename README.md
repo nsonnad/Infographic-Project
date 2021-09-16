@@ -43,3 +43,4 @@ And in general--and I cannot stress this enough--there is essentially no data ou
 Let me know what you think, Nikhil. Really eager for your thoughts!
  
 
+[120232-Article Text-262510-1-10-20210210.pdf](https://github.com/lucypapachristou/Infographic-Project/files/7180648/120232-Article.Text-262510-1-10-20210210.pdf)
