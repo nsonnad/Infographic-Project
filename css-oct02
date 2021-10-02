@@ -1,0 +1,72 @@
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: arial, sans-serif;
+  display: block;
+  margin: 8px;
+}
+
+div.main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 1.4em;
+}
+
+
+article {
+  /* Write stuff here to apply to whole ARTICLE in html, including writing and icons */
+}
+/* Comment in CSS = Command + slash */
+/* at - media will change how the CSS looks depending on the screen size,
+like if you are viewing the page on your phone */
+
+#icon-grid {
+    display: flex;
+    font-size: 1.3em;
+}
+
+.column-1, .column-2, .column-3 {
+    flex-direction: row;
+    display: flex;
+}
+
+.icon {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.icon-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.icon h3 {
+  width: 100%;
+}
+
+.main_img {
+  height: 180px;
+  width: auto;
+}
+
+@media (max-width: 700px) {
+  .icon {
+    flex: 100%;
+  }
