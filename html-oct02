@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HEADLINE OF MY STORY</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="main">
+
+<!-- THE HEADLINE AND STORY ARE HERE -->
+    <div class="top">
+        <h1>HEADLINE</h1>
+        <h2>subheader</h2>
+    <!-- image here maybe? -->
+      <div class="story">
+        <p>Story text here.</p>
+      </div>
+    </div>
+
+
+    <!-- Begin icon grid -->
+  <div id="icon-grid>
+
+    <div class="column-1">
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Knife attack: Knife%</h3>
+          <img class="main_img" img src="images/knife2.png" alt="a knife">
+        </div>
+      </div>
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Gun shooting: Gun%</h3>
+          <img class="main_img" img src="images/gun1.png" alt="a gun">
+        </div>
+      </div>
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Taser or electronic weapon: Taser%</h3>
+          <img class="main_img" img src="images/taser1.png" alt="a taser">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="column-2">
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Club or stick: Club%</h3>
+          <img class="main_img" img src="images/club.png" alt="a club">
+        </div>
+      </div>
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Physical fight with no weapons: Fight%</h3>
+          <img class="main_img" img src="images/fight.png" alt="two stick figures fighting">
+        </div>
+      </div>
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Torture: Torture%</h3>
+          <img class="main_img" img src="images/torture.png" alt="a stick figure being tortured">
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="column-3">
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Physical harassment: Ph%</h3>
+          <img class="main_img" img src="images/physicalharassment.png" alt="a stick figure yelling at another stick figure">
+        </div>
+      </div>
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Psychological harassment: PsychHar%</h3>
+          <img class="main_img" img src="images/depression2.png" alt="a stick figure looking sad">
+        </div>
+      </div>
+
+      <div class="icon">
+        <div class="icon-content">
+          <h3>Sexual violence: SV%</h3>
+          <img class="main_img" img src="images/sexualviolence2.png" alt="a stick figure inappropriately touching another stick figure">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  </body>
+
+</html>
