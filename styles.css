@@ -2,10 +2,21 @@ h1, h2, h3 {
   font-family: sans-serif;
 }
 
+h2 {
+  padding-top: 2%;
+}
+
+h3 {
+  width: 100%;
+  padding-bottom: 2px;
+  font-size: 18px;
+}
+
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Public Sans', sans-serif;
   display: block;
   margin: 8px;
+  background-color: #F0F8FF;
 }
 
 div.main {
@@ -17,16 +28,34 @@ div.main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .story {
+  font-size: 15px;
+}
+
+.firstsentence {
+  padding-top: 1%;
+}
+
+.maptext {
   display: flex;
-  flex-direction: column;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 100px;
-  font-size: 1.4em;
+  align-items: center;
+  justify-content: center;
+}
+
+.map {
+  flex-basis: 40%
+}
+
+.balkanroute {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+figcaption {
+  font-size: 10px;
 }
 
 
@@ -61,25 +90,17 @@ div.icon-content {
   padding: 20%;
 }
 
-h3 {
-  width: 100%;
-  padding-bottom: 10px;
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-}
-
 .main_img {
   float: left;
-  max-width: 100px;
+  max-width: 150px;
   height: auto;
   object-fit: contain;
 }
 
 footer {
   font-size: 11px;
-  padding-top: 25px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10%;
 }
 
 @media (max-width: 700px) {
