@@ -70,6 +70,7 @@ div.column-1, div.column-2, div.column-3 {
   flex-direction: row;
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
   justify-content: center;
 }
 
@@ -106,3 +107,4 @@ footer {
   .icon {
     flex: 100%;
   }
+}
