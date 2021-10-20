@@ -23,6 +23,10 @@ div.main {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 .top {
   display: flex;
   flex-direction: column;
@@ -45,10 +49,11 @@ div.main {
 }
 
 .map {
-  flex-basis: 40%
+  flex: 0 0 50%;
 }
 
 .balkanroute {
+  flex: 0 0 50%;
   font-size: 15px;
   padding-left: 20px;
 }
