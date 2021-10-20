@@ -7,7 +7,6 @@ h2 {
 }
 
 h3 {
-  width: 100%;
   padding-bottom: 2px;
   font-size: 18px;
 }
@@ -66,36 +65,33 @@ article {
 /* at - media will change how the CSS looks depending on the screen size,
 like if you are viewing the page on your phone */
 
-div.column-1, div.column-2, div.column-3 {
-  flex-direction: row;
+div.icon-grid {
   display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 div.icon {
-  flex-wrap: wrap;
+  flex-basis: 33%;
+  flex-grow: 1;
   display: flex;
 }
 
 div.icon-content {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 15px;
   border: 2px solid black;
   background-color: lightgrey;
-  width: 300px;
   margin: 5%;
-  padding: 20%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .main_img {
   float: left;
-  max-width: 150px;
+  max-width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 footer {
@@ -104,7 +100,7 @@ footer {
 }
 
 @media (max-width: 700px) {
-  .icon {
-    flex: 100%;
+  div.icon {
+    flex-basis: 50%;
   }
 }
